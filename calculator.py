@@ -12,5 +12,14 @@ def sub_numbers(a, b):
 
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
-result = sub_numbers_numbers(num1, num2)
+result = sub_numbers(num1, num2)
+print("The sub is:", result)
+
+
+def divison(a, b):
+    return a / b
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+result = divison(num1, num2)
 print("The sub is:", result)
